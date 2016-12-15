@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="ThemeStarz">
+    <link href='http://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>
+    <link href="assets/fonts/font-awesome.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/bootstrap-select.min.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/jquery.slider.min.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/custom.css" type="text/css">
+    <title>Citizn | Reports Listing Grid</title>
+</head>
+
+<body class="page-sub-page page-listing page-grid page-search-results" id="page-top">
+    <!-- Wrapper -->
+    <div class="wrapper">
+        <!-- Navigation -->
+        <div class="navigation">
+            <div class="container">
+                <header class="navbar" id="top" role="banner">
+                    <div class="navbar-header">
+                        <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <div class="navbar-brand nav" id="brand">
+                            <a href="index-google-map-fullscreen.html"><img src="assets/img/Citizn-logo-small2.png" alt="brand"></a>
+                        </div>
+                    </div>
+                    <nav class="collapse navbar-collapse bs-navbar-collapse navbar-right" role="navigation">
+                        <ul class="nav navbar-nav">
+                            <li><a href="index.html">Home</a>
+                            </li>
+                            <li><a href="#">Report</a>
+                            </li>
+                            <li><a href="#">Help</a>
+                            </li>
+                            <li><a href="sendReport.html">Send Report</a></li>
+                        </ul>
+                    </nav>
+                    <!-- /.container -->
+            </div>
+            <!-- /.navigation -->
+            <!-- end Navigation -->
+            <!-- Page Content -->
+            <div id="page-content">
+                <!-- Breadcrumb -->
+                <div class="container">
+                    <ol class="breadcrumb">
+                    </ol>
+                </div>
+                <!-- end Breadcrumb -->
+                <div class="container">
+                    <div class="row">
+                        <!-- Results -->
+                        <div class="row">
+                            <div class="col-md-12 col-sm-12">
+                                <div class="col-md-12">
+                                    <div class="input-group" id="adv-search">
+                                        <input type="text" class="form-control" placeholder="Search" />
+                                        <div class="input-group-btn">
+                                            <div class="btn-group" role="group">
+                                                <div class="dropdown dropdown-lg">
+                                                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><span class="caret"></span></button>
+                                                    <div class="dropdown-menu dropdown-menu-right" role="menu">
+                                                        <form class="form-horizontal" role="form">
+                                                            <div class="form-group">
+                                                                <label for="filter">Filter by</label>
+                                                                <select class="form-control">
+                                                                    <option value="0" selected>Category</option>
+                                                                    <option value="1"> Road</option>
+                                                                    <option value="2">Sanitation</option>
+                                                                    <option value="3">Power</option>
+                                                                    <option value="4">School</option>
+                                                                    <option value="5">Hospitals</option>
+                                                                </select>
+                                                            </div>
+                                                            <div class="form-group">
+                                                                <label for="contain">Country</label>
+                                                                <input class="form-control" type="text" />
+                                                            </div>
+                                                            <div class="form-group">
+                                                                <label for="contain">State</label>
+                                                                <input class="form-control" type="text" />
+                                                            </div>
+                                                            <div class="form-group">
+                                                                <label for="contain">City</label>
+                                                                <input class="form-control" type="text" />
+                                                            </div>
+                                                            <button type="submit" class="btn btn-primary"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
+                                                        </form>
+                                                    </div>
+                                                </div>
+                                                <button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <section id="properties">
+                            <div class="row">
+                                <div class="col-md-4 col-sm-4">
+                                    <div class="property equal-height">
+                                        <figure class="tag status"> Road </figure>
+                                        <a href="property-detail.html">
+                                            <div class="property-image">
+                                                <img alt="" src="assets/img/properties/property-09.jpg">
+                                            </div>
+                                            <div class="overlay">
+                                                <div class="info">
+                                                    <div class="tag price">11,000</div>
+                                                    <h3>Agungi, Lekki</h3>
+                                                    <figure>Lagos, Nigeria</figure>
+                                                </div>
+                                                <ul class="additional-info">
+                                                    <li>
+                                                        <header>Status:</header>
+                                                        <h4>In-process</h4>
+                                                    </li>
+                                                    <li>
+                                                        <header>Time:</header>
+                                                        <h4>2 weeks ago </h4>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!-- /.property -->
+                                </div>
+                                <!-- /.col-md-3 -->
+                                <div class="col-md-4 col-sm-4">
+                                    <div class="property equal-height">
+                                        <figure class="tag status"> Sanitation </figure>
+                                        <a href="property-detail.html">
+                                            <div class="property-image">
+                                                <img alt="" src="assets/img/properties/property-03.jpg">
+                                            </div>
+                                            <div class="overlay">
+                                                <div class="info">
+                                                    <div class="tag price">38,000</div>
+                                                    <h3>Ojuelegba, Surulere</h3>
+                                                    <figure>Lagos, Nigeria </figure>
+                                                </div>
+                                                <ul class="additional-info">
+                                                    <li>
+                                                        <header>Status:</header>
+                                                        <h4>In-process</h4>
+                                                    </li>
+                                                    <li>
+                                                        <header>Time:</header>
+                                                        <h4>2 weeks ago </h4>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!-- /.property -->
+                                </div>
+                                <!-- /.col-md-3 -->
+                                <div class="col-md-4 col-sm-4">
+                                    <div class="property equal-height">
+                                        <figure class="tag status"> Sanitation </figure>
+                                        <a href="property-detail.html">
+                                            <div class="property-image">
+                                                <img alt="" src="assets/img/properties/property-06.jpg">
+                                            </div>
+                                            <div class="overlay">
+                                                <div class="info">
+                                                    <div class="tag price">325,000</div>
+                                                    <h3>Maitama Sule, Ikoyi</h3>
+                                                    <figure>Lagos, Nigeria</figure>
+                                                </div>
+                                                <ul class="additional-info">
+                                                    <li>
+                                                        <header>Status:</header>
+                                                        <h4>In-process</h4>
+                                                    </li>
+                                                    <li>
+                                                        <header>Time:</header>
+                                                        <h4>2 weeks ago </h4>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!-- /.property -->
+                                </div>
+                                <!-- /.col-md-3 -->
+                            </div>
+                            <!-- /.row-->
+                            <div class="row">
+                                <div class="col-md-4 col-sm-4">
+                                    <div class="property">
+                                        <figure class="tag status"> School </figure>
+                                        <figure class="ribbon">fixed</figure>
+                                        <a href="property-detail.html">
+                                            <div class="property-image">
+                                                <img alt="" src="assets/img/properties/property-02.jpg">
+                                            </div>
+                                            <div class="overlay">
+                                                <div class="info">
+                                                    <div class="tag price">325,000</div>
+                                                    <h3>Maitama Sule, Ikoyi</h3>
+                                                    <figure>Lagos, Nigeria</figure>
+                                                </div>
+                                                <ul class="additional-info">
+                                                    <li>
+                                                        <header>Status:</header>
+                                                        <h4>In-process</h4>
+                                                    </li>
+                                                    <li>
+                                                        <header>Time:</header>
+                                                        <h4>2 weeks ago </h4>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!-- /.property -->
+                                </div>
+                                <!-- /.col-md-3 -->
+                                <div class="col-md-4 col-sm-4">
+                                    <div class="property">
+                                        <figure class="tag status"> School </figure>
+                                        <a href="property-detail.html">
+                                            <div class="property-image">
+                                                <img alt="" src="assets/img/properties/property-12.jpg">
+                                            </div>
+                                            <div class="overlay">
+                                                <div class="info">
+                                                    <div class="tag price">325,000</div>
+                                                    <h3>Maitama Sule, Ikoyi</h3>
+                                                    <figure>Lagos, Nigeria</figure>
+                                                </div>
+                                                <ul class="additional-info">
+                                                    <li>
+                                                        <header>Status:</header>
+                                                        <h4>In-process</h4>
+                                                    </li>
+                                                    <li>
+                                                        <header>Time:</header>
+                                                        <h4>2 weeks ago </h4>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!-- /.property -->
+                                </div>
+                                <!-- /.col-md-3 -->
+                                <div class="col-md-4 col-sm-4">
+                                    <div class="property">
+                                        <figure class="tag status"> School </figure>
+                                        <figure class="ribbon">fixed</figure>
+                                        <a href="property-detail.html">
+                                            <div class="property-image">
+                                                <img alt="" src="assets/img/properties/property-05.jpg">
+                                            </div>
+                                            <div class="overlay">
+                                                <div class="info">
+                                                    <div class="tag price">325,000</div>
+                                                    <h3>Maitama Sule, Ikoyi</h3>
+                                                    <figure>Lagos, Nigeria</figure>
+                                                </div>
+                                                <ul class="additional-info">
+                                                    <li>
+                                                        <header>Status:</header>
+                                                        <h4>In-process</h4>
+                                                    </li>
+                                                    <li>
+                                                        <header>Time:</header>
+                                                        <h4>2 weeks ago </h4>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!-- /.property -->
+                                </div>
+                                <!-- /.col-md-3 -->
+                            </div>
+                            <!-- /.row-->
+                            <div class="row">
+                                <div class="col-md-4 col-sm-4">
+                                    <div class="property">
+                                        <figure class="tag status"> Road </figure>
+                                        <a href="property-detail.html">
+                                            <div class="property-image">
+                                                <img alt="" src="assets/img/properties/property-13.jpg">
+                                            </div>
+                                            <div class="overlay">
+                                                <div class="info">
+                                                    <div class="tag price">325,000</div>
+                                                    <h3>Maitama Sule, Ikoyi</h3>
+                                                    <figure>Lagos, Nigeria</figure>
+                                                </div>
+                                                <ul class="additional-info">
+                                                    <li>
+                                                        <header>Status:</header>
+                                                        <h4>In-process</h4>
+                                                    </li>
+                                                    <li>
+                                                        <header>Time:</header>
+                                                        <h4>2 weeks ago </h4>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!-- /.property -->
+                                </div>
+                                <!-- /.col-md-3 -->
+                                <div class="col-md-4 col-sm-4">
+                                    <div class="property">
+                                        <figure class="tag status"> Hospital </figure>
+                                        <a href="property-detail.html">
+                                            <div class="property-image">
+                                                <img alt="" src="assets/img/properties/property-04.jpg">
+                                            </div>
+                                            <div class="overlay">
+                                                <div class="info">
+                                                    <div class="tag price">325,000</div>
+                                                    <h3>Maitama Sule, Ikoyi</h3>
+                                                    <figure>Lagos, Nigeria</figure>
+                                                </div>
+                                                <ul class="additional-info">
+                                                    <li>
+                                                        <header>Status:</header>
+                                                        <h4>In-process</h4>
+                                                    </li>
+                                                    <li>
+                                                        <header>Time:</header>
+                                                        <h4>2 weeks ago </h4>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!-- /.property -->
+                                </div>
+                                <!-- /.col-md-3 -->
+                                <div class="col-md-4 col-sm-4">
+                                    <div class="property">
+                                        <figure class="tag status"> Road </figure>
+                                        <figure class="ribbon">fixed</figure>
+                                        <a href="property-detail.html">
+                                            <div class="property-image">
+                                                <img alt="" src="assets/img/properties/property-07.jpg">
+                                            </div>
+                                            <div class="overlay">
+                                                <div class="info">
+                                                    <div class="tag price">325,000</div>
+                                                    <h3>Maitama Sule, Ikoyi</h3>
+                                                    <figure>Lagos, Nigeria</figure>
+                                                </div>
+                                                <ul class="additional-info">
+                                                    <li>
+                                                        <header>Status:</header>
+                                                        <h4>In-process</h4>
+                                                    </li>
+                                                    <li>
+                                                        <header>Time:</header>
+                                                        <h4>2 weeks ago </h4>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!-- /.property -->
+                                </div>
+                                <!-- /.col-md-3 -->
+                            </div>
+                            <!-- /.row-->
+                            <section id="advertising">
+                                <a href="submit.html">
+                                    <div class="banner">
+                                        <div class="wrapper">
+                                            <span class="title">Seen any broken systems in your locality?</span>
+                                            <span class="submit">Report it now! <i class="fa fa-plus-square"></i></span>
+                                        </div>
+                                        <div> <span class="title">Earn redeemable points everytime your report is resolved</span>
+                                        </div>
+                                    </div>
+                                    <!-- /.banner-->
+                                </a>
+                            </section>
+                            <!-- /#adveritsing-->
+                            <div class="row">
+                                <div class="col-md-4 col-sm-4">
+                                    <div class="property equal-height">
+                                        <figure class="tag status"> Road </figure>
+                                        <a href="property-detail.html">
+                                            <div class="property-image">
+                                                <img alt="" src="assets/img/properties/property-09.jpg">
+                                            </div>
+                                            <div class="overlay">
+                                                <div class="info">
+                                                    <div class="tag price">11,000</div>
+                                                    <h3>Agungi, Lekki</h3>
+                                                    <figure>Lagos, Nigeria</figure>
+                                                </div>
+                                                <ul class="additional-info">
+                                                    <li>
+                                                        <header>Status:</header>
+                                                        <h4>In-process</h4>
+                                                    </li>
+                                                    <li>
+                                                        <header>Time:</header>
+                                                        <h4>2 weeks ago </h4>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!-- /.property -->
+                                </div>
+                                <!-- /.col-md-3 -->
+                                <div class="col-md-4 col-sm-4">
+                                    <div class="property equal-height">
+                                        <figure class="tag status"> Sanitation </figure>
+                                        <a href="property-detail.html">
+                                            <div class="property-image">
+                                                <img alt="" src="assets/img/properties/property-03.jpg">
+                                            </div>
+                                            <div class="overlay">
+                                                <div class="info">
+                                                    <div class="tag price">38,000</div>
+                                                    <h3>Ojuelegba, Surulere</h3>
+                                                    <figure>Lagos, Nigeria </figure>
+                                                </div>
+                                                <ul class="additional-info">
+                                                    <li>
+                                                        <header>Status:</header>
+                                                        <h4>In-process</h4>
+                                                    </li>
+                                                    <li>
+                                                        <header>Time:</header>
+                                                        <h4>2 weeks ago </h4>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!-- /.property -->
+                                </div>
+                                <!-- /.col-md-3 -->
+                                <div class="col-md-4 col-sm-4">
+                                    <div class="property equal-height">
+                                        <figure class="tag status"> Sanitation </figure>
+                                        <a href="property-detail.html">
+                                            <div class="property-image">
+                                                <img alt="" src="assets/img/properties/property-06.jpg">
+                                            </div>
+                                            <div class="overlay">
+                                                <div class="info">
+                                                    <div class="tag price">325,000</div>
+                                                    <h3>Maitama Sule, Ikoyi</h3>
+                                                    <figure>Lagos, Nigeria</figure>
+                                                </div>
+                                                <ul class="additional-info">
+                                                    <li>
+                                                        <header>Status:</header>
+                                                        <h4>In-process</h4>
+                                                    </li>
+                                                    <li>
+                                                        <header>Time:</header>
+                                                        <h4>2 weeks ago </h4>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!-- /.property -->
+                                </div>
+                            </div>
+                            <!-- /.row-->
+                            <div class="row">
+                                <div class="col-md-4 col-sm-4">
+                                    <div class="property">
+                                        <figure class="tag status">For Sale</figure>
+                                        <a href="property-detail.html">
+                                            <div class="property-image">
+                                                <img alt="" src="assets/img/properties/property-06.jpg">
+                                            </div>
+                                            <div class="overlay">
+                                                <div class="info">
+                                                    <div class="tag price">325,000</div>
+                                                    <h3>Maitama Sule, Ikoyi</h3>
+                                                    <figure>Lagos, Nigeria</figure>
+                                                </div>
+                                                <ul class="additional-info">
+                                                    <li>
+                                                        <header>Status:</header>
+                                                        <h4>In-process</h4>
+                                                    </li>
+                                                    <li>
+                                                        <header>Time:</header>
+                                                        <h4>2 weeks ago </h4>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!-- /.property -->
+                                </div>
+                                <!-- /.col-md-3 -->
+                                <div class="col-md-4 col-sm-4">
+                                    <div class="property">
+                                        <a href="property-detail.html">
+                                            <div class="property-image">
+                                                <img alt="" src="assets/img/properties/property-02.jpg">
+                                            </div>
+                                            <div class="overlay">
+                                                <div class="info">
+                                                    <div class="tag price">325,000</div>
+                                                    <h3>Maitama Sule, Ikoyi</h3>
+                                                    <figure>Lagos, Nigeria</figure>
+                                                </div>
+                                                <ul class="additional-info">
+                                                    <li>
+                                                        <header>Status:</header>
+                                                        <h4>In-process</h4>
+                                                    </li>
+                                                    <li>
+                                                        <header>Time:</header>
+                                                        <h4>2 weeks ago </h4>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!-- /.property -->
+                                </div>
+                                <!-- /.col-md-3 -->
+                                <div class="col-md-4 col-sm-4">
+                                    <div class="property">
+                                        <a href="property-detail.html">
+                                            <div class="property-image">
+                                                <img alt="" src="assets/img/properties/property-03.jpg">
+                                            </div>
+                                            <div class="overlay">
+                                                <div class="info">
+                                                    <div class="tag price">325,000</div>
+                                                    <h3>Maitama Sule, Ikoyi</h3>
+                                                    <figure>Lagos, Nigeria</figure>
+                                                </div>
+                                                <ul class="additional-info">
+                                                    <li>
+                                                        <header>Status:</header>
+                                                        <h4>In-process</h4>
+                                                    </li>
+                                                    <li>
+                                                        <header>Time:</header>
+                                                        <h4>2 weeks ago </h4>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!-- /.property -->
+                                </div>
+                                <!-- /.col-md-3 -->
+                            </div>
+                            <!-- /.row-->
+                            <!-- Pagination -->
+                            <div class="center">
+                                <ul class="pagination">
+                                    <li class="active"><a href="#">1</a></li>
+                                    <li><a href="#">2</a></li>
+                                    <li><a href="#">3</a></li>
+                                    <li><a href="#">4</a></li>
+                                    <li><a href="#">5</a></li>
+                                </ul>
+                                <!-- /.pagination-->
+                            </div>
+                            <!-- /.center-->
+                        </section>
+                        <!-- /#properties-->
+                        </section>
+                        <!-- /#results -->
+                    </div>
+                    <!-- /.col-md-9 -->
+                    <!-- end Results -->
+                    <!-- sidebar -->
+                </div>
+                <!-- /.row -->
+            </div>
+            <!-- /.container -->
+        </div>
+        <!-- end Page Content -->
+        <!-- Page Footer -->
+        <footer id="page-footer">
+            <div class="inner">
+                <aside id="footer-main">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-4 col-sm-4">
+                                <article>
+                                    <h3>About Us</h3>
+                                    <p>A team of Mesters working to help our government serve her people better
+                                    </p>
+                                    <hr>
+                                    <a href="#" class="link-arrow">Read More</a>
+                                </article>
+                            </div>
+                            <!-- /.col-sm-3 -->
+                            <div class="col-md-4 col-sm-4 col-md-offset-1">
+                                <article>
+                                    <h3>Contact</h3>
+                                    <address>
+                                        <strong>Your Company</strong>
+                                        <br> 20 Aluguntugui Street
+                                        <br> Accra, Ghana
+                                    </address>
+                                    +234 (808) 431-8210
+                                    <br>
+                                    <a href="#">hello@example.com</a>
+                                </article>
+                            </div>
+                            <!-- /.col-sm-3 -->
+                            <div class="col-md-3 col-sm-3 ">
+                                <article>
+                                    <h3>Useful Links</h3>
+                                    <ul class="list-unstyled list-links">
+                                        <li><a href="#">All Reports</a></li>
+                                        <li><a href="#">Privacy Policy</a></li>
+                                        <li><a href="#">Login and Register Account</a></li>
+                                        <li><a href="#">FAQ</a></li>
+                                        <li><a href="#">Terms and Conditions</a></li>
+                                    </ul>
+                                </article>
+                            </div>
+                            <!-- /.col-sm-3 -->
+                        </div>
+                        <!-- /.row -->
+                    </div>
+                    <!-- /.container -->
+                </aside>
+                <!-- /#footer-main -->
+                <aside id="footer-thumbnails" class="footer-thumbnails"></aside>
+                <!-- /#footer-thumbnails -->
+                <aside id="footer-copyright">
+                    <div class="container">
+                        <span>Copyright © 2016. All Rights Reserved.</span>
+                        <span class="pull-right"><a href="#page-top" class="roll">Go to top</a></span>
+                    </div>
+                </aside>
+            </div>
+            <!-- /.inner -->
+        </footer>
+        <!-- end Page Footer -->
+    </div>
+    <script type="text/javascript" src="assets/js/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="assets/js/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/js/smoothscroll.js"></script>
+    <script type="text/javascript" src="assets/js/bootstrap-select.min.js"></script>
+    <script type="text/javascript" src="assets/js/icheck.min.js"></script>
+    <script type="text/javascript" src="assets/js/retina-1.1.0.min.js"></script>
+    <script type="text/javascript" src="assets/js/jshashtable-2.1_src.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.numberformatter-1.2.3.js"></script>
+    <script type="text/javascript" src="assets/js/tmpl.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.dependClass-0.1.js"></script>
+    <script type="text/javascript" src="assets/js/draggable-0.1.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.slider.js"></script>
+    <script type="text/javascript" src="assets/js/custom.js"></script>
+    <!--[if gt IE 8]>
+<script type="text/javascript" src="assets/js/ie.js"></script>
+<![endif]-->
+</body>
+
+</html>
